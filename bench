@@ -1,0 +1,87 @@
+[shadow@shadow-standardpcq35ich92009 ~]$ tcpkali --workers 2 -c 300 -T 30s -m "PING12" 127.0.0.1:8080
+WARNING: Dumb terminal, expect unglorified output.
+WARNING: Not reusing TIME_WAIT sockets, might not open 300 simultaneous connections. Adjust "/proc/sys/net/ipv4/tcp_tw_reuse" value.
+Destination: [127.0.0.1]:8080
+Interface lo address [127.0.0.1]:0
+Using interface lo to connect to [127.0.0.1]:8080
+Ramped up to 300 connections.
+Total data sent:     1755.4 MiB (1840652078 bytes)
+Total data received: 1801.0 MiB (1888497909 bytes)
+Bandwidth per channel: 3.314⇅ Mbps (414.2 kBps)
+Aggregate bandwidth: 503.436↓, 490.681↑ Mbps
+Packet rate estimate: 51979.0↓, 43952.2↑ (4↓, 17↑ TCP MSS/op)
+Test duration: 30.0098 s.
+
+
+
+[shadow@shadow-standardpcq35ich92009 ~]$ tcpkali --workers 2 -c 300 -T 30s -m "PING12" 127.0.0.1:8080
+WARNING: Dumb terminal, expect unglorified output.
+WARNING: Not reusing TIME_WAIT sockets, might not open 300 simultaneous connections. Adjust "/proc/sys/net/ipv4/tcp_tw_reuse" value.
+Destination: [127.0.0.1]:8080
+Interface lo address [127.0.0.1]:0
+Using interface lo to connect to [127.0.0.1]:8080
+Ramped up to 300 connections.
+Total data sent:     2568.5 MiB (2693251081 bytes)
+Total data received: 2571.9 MiB (2696797808 bytes)
+Bandwidth per channel: 4.790⇅ Mbps (598.8 kBps)
+Aggregate bandwidth: 719.015↓, 718.069↑ Mbps
+Packet rate estimate: 69240.3↓, 63869.9↑ (6↓, 24↑ TCP MSS/op)
+Test duration: 30.0055 s.
+
+
+
+[shadow@shadow-standardpcq35ich92009 ~]$ tcpkali --workers 2 -c 300 -T 30s -m "PING12" 127.0.0.1:8080
+WARNING: Dumb terminal, expect unglorified output.
+WARNING: Not reusing TIME_WAIT sockets, might not open 300 simultaneous connections. Adjust "/proc/sys/net/ipv4/tcp_tw_reuse" value.
+Destination: [127.0.0.1]:8080
+Interface lo address [127.0.0.1]:0
+Using interface lo to connect to [127.0.0.1]:8080
+Ramped up to 300 connections.
+Total data sent:     3008.5 MiB (3154650513 bytes)
+Total data received: 3021.7 MiB (3168486447 bytes)
+Bandwidth per channel: 5.620⇅ Mbps (702.5 kBps)
+Aggregate bandwidth: 844.824↓, 841.135↑ Mbps
+Packet rate estimate: 79929.8↓, 74392.3↑ (6↓, 24↑ TCP MSS/op)
+Test duration: 30.0037 s.
+
+
+[shadow@shadow-standardpcq35ich92009 ~]$ tcpkali --workers 2 -c 300 -T 30s -m "PING12" 127.0.0.1:8080
+WARNING: Dumb terminal, expect unglorified output.
+WARNING: Not reusing TIME_WAIT sockets, might not open 300 simultaneous connections. Adjust "/proc/sys/net/ipv4/tcp_tw_reuse" value.
+Destination: [127.0.0.1]:8080
+Interface lo address [127.0.0.1]:0
+Using interface lo to connect to [127.0.0.1]:8080
+Ramped up to 300 connections.
+Total data sent:     3357.4 MiB (3520449478 bytes)
+Total data received: 3376.0 MiB (3539984945 bytes)
+Bandwidth per channel: 6.275⇅ Mbps (784.4 kBps)
+Aggregate bandwidth: 943.885↓, 938.676↑ Mbps
+Packet rate estimate: 91614.0↓, 81154.3↑ (6↓, 22↑ TCP MSS/op)
+Test duration: 30.0035 s.
+
+[shadow@shadow-standardpcq35ich92009 ~]$ tcpkali --workers 2 -c 300 -T 30s -m "PING12" 127.0.0.1:8080
+WARNING: Dumb terminal, expect unglorified output.
+WARNING: Not reusing TIME_WAIT sockets, might not open 300 simultaneous connections. Adjust "/proc/sys/net/ipv4/tcp_tw_reuse" value.
+Destination: [127.0.0.1]:8080
+Interface lo address [127.0.0.1]:0
+Using interface lo to connect to [127.0.0.1]:8080
+Ramped up to 300 connections.
+Total data sent:     4790.6 MiB (5023299639 bytes)
+Total data received: 4791.4 MiB (5024152488 bytes)
+Bandwidth per channel: 8.930⇅ Mbps (1116.3 kBps)
+Aggregate bandwidth: 1339.664↓, 1339.437↑ Mbps
+Test duration: 30.0025 s.
+
+[shadow@shadow-standardpcq35ich92009 ~]$ tcpkali --workers 2 -c 300 -T 30s -m "PING12" 127.0.0.1:8080
+WARNING: Dumb terminal, expect unglorified output.
+WARNING: Not reusing TIME_WAIT sockets, might not open 300 simultaneous connections. Adjust "/proc/sys/net/ipv4/tcp_tw_reuse" value.
+Destination: [127.0.0.1]:8080
+Interface lo address [127.0.0.1]:0
+Using interface lo to connect to [127.0.0.1]:8080
+Ramped up to 300 connections.
+Total data sent:     5570.4 MiB (5840997340 bytes)
+Total data received: 5572.6 MiB (5843291156 bytes)
+Bandwidth per channel: 10.383⇅ Mbps (1297.9 kBps)
+Aggregate bandwidth: 1557.745↓, 1557.134↑ Mbps
+Packet rate estimate: 144671.7↓, 138684.3↑ (7↓, 25↑ TCP MSS/op)
+Test duration: 30.009 s.
